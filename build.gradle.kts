@@ -1,5 +1,7 @@
+@file:Suppress("DEPRECATION")
+
 plugins {
-    kotlin("jvm") version "1.9.0"
+    kotlin("jvm") version "1.9.10"
 }
 
 group = "app.revanced"
@@ -21,13 +23,10 @@ repositories {
 }
 
 dependencies {
-    implementation("app.revanced:revanced-patcher:14.2.1")
+    implementation("app.revanced:revanced-patcher:14.2.2")
     implementation("com.android.tools.smali:smali:3.0.3")
-    implementation("com.android.tools.smali:smali-dexlib2:3.0.3")
-    // Required because build fails without it.
-    // TODO: Find a way to remove this dependency.
-    implementation("com.google.guava:guava:32.1.2-jre")
-    // Used in JsonGenerator
+
+    // Required for meta
     implementation("com.google.code.gson:gson:2.10.1")
 }
 
@@ -37,8 +36,9 @@ tasks {
         dependsOn(build)
 
         doLast {
-            val androidHome = System.getenv("ANDROID_HOME") ?: throw GradleException("ANDROID_HOME not found")
-            val d8 = "${androidHome}/build-tools/33.0.1/d8"
+            val androidHome =
+                System.getenv("ANDROID_HOME") ?: throw GradleException("ANDROID_HOME not found")
+            val d8 = "${androidHome}/build-tools/34.0.0/d8"
             val input = configurations.archives.get().allArtifacts.files.files.first().absolutePath
             val work = File("${buildDir}/libs")
 
