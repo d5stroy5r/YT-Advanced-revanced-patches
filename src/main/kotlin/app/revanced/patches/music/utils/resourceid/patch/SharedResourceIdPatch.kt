@@ -2,7 +2,6 @@ package app.revanced.patches.music.utils.resourceid.patch
 
 import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchException
-
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patches.shared.patch.mapping.ResourceMappingPatch
@@ -27,6 +26,7 @@ class SharedResourceIdPatch : ResourcePatch {
         var PrivacyTosFooter: Long = -1
         var QualityTitle: Long = -1
         var Text1: Long = -1
+        var ToolTipContentView: Long = -1
     }
 
     override fun execute(context: ResourceContext) {
@@ -45,5 +45,7 @@ class SharedResourceIdPatch : ResourcePatch {
         PrivacyTosFooter = find(ID, "privacy_tos_footer")
         QualityTitle = find(STRING, "quality_title")
         Text1 = find(ID, "text1")
+        ToolTipContentView = find(LAYOUT, "tooltip_content_view")
+
     }
 }
