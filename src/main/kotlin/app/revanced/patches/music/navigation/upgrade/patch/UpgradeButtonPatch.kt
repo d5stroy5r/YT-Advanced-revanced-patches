@@ -1,26 +1,26 @@
-package app.revanced.patches.music.misc.upgradebutton.patch
+package app.revanced.patches.music.navigation.upgrade.patch
 
 import app.revanced.extensions.exception
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
-
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.revanced.patcher.extensions.InstructionExtensions.getInstruction
-import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patches.music.misc.upgradebutton.fingerprints.NotifierShelfFingerprint
-import app.revanced.patches.music.misc.upgradebutton.fingerprints.PivotBarConstructorFingerprint
+import app.revanced.patcher.util.smali.ExternalLabel
+import app.revanced.patches.music.navigation.upgrade.fingerprints.NotifierShelfFingerprint
 import app.revanced.patches.music.utils.annotations.MusicCompatibility
+import app.revanced.patches.music.utils.fingerprints.TabLayoutTextFingerprint
 import app.revanced.patches.music.utils.integrations.patch.IntegrationsPatch
 import app.revanced.patches.music.utils.resourceid.patch.SharedResourceIdPatch
-import app.revanced.util.integrations.Constants.MUSIC_LAYOUT
+import app.revanced.util.integrations.Constants.MUSIC_NAVIGATION
+import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
-import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
+import com.android.tools.smali.dexlib2.iface.instruction.formats.Instruction35c
+import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
 @Patch
 @Name("Hide upgrade button")
@@ -32,25 +32,38 @@ import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
     ]
 )
 @MusicCompatibility
-
 class UpgradeButtonPatch : BytecodePatch(
     listOf(
-        PivotBarConstructorFingerprint,
-        NotifierShelfFingerprint
+        NotifierShelfFingerprint,
+        TabLayoutTextFingerprint
     )
 ) {
     override fun execute(context: BytecodeContext) {
-        PivotBarConstructorFingerprint.result?.let {
+        TabLayoutTextFingerprint.result?.let {
             it.mutableMethod.apply {
-                val targetIndex = it.scanResult.patternScanResult!!.startIndex
-                val targetRegister = getInstruction<TwoRegisterInstruction>(targetIndex).registerA
+                val targetIndex = it.scanResult.patternScanResult!!.startIndex + 3
+                val targetRegister = getInstruction<OneRegisterInstruction>(targetIndex).registerA
 
-                addInstruction(
-                    targetIndex,
-                    "invoke-static {v$targetRegister}, $MUSIC_LAYOUT->hideUpgradeButton(Ljava/util/List;)V"
-                )
+                val insertIndex = implementation!!.instructions.indexOfFirst { instruction ->
+                    instruction.opcode == Opcode.AND_INT_LIT8
+                } - 2
+
+                for ((index, instruction) in implementation!!.instructions.withIndex()) {
+                    if (instruction.opcode != Opcode.INVOKE_INTERFACE) continue
+
+                    if ((getInstruction<Instruction35c>(index).reference as MethodReference).name != "hasNext") continue
+
+                    addInstructionsWithLabels(
+                        insertIndex, """
+                            invoke-static {v$targetRegister}, $MUSIC_NAVIGATION->hideUpgradeButton(Ljava/lang/Enum;)Z
+                            move-result v$targetRegister
+                            if-nez v$targetRegister, :hide
+                            """, ExternalLabel("hide", getInstruction(index))
+                    )
+                    break
+                }
             }
-        } ?: throw PivotBarConstructorFingerprint.exception
+        } ?: throw TabLayoutTextFingerprint.exception
 
         NotifierShelfFingerprint.result?.let {
             it.mutableMethod.apply {
@@ -62,5 +75,6 @@ class UpgradeButtonPatch : BytecodePatch(
                 )
             }
         } ?: throw NotifierShelfFingerprint.exception
+
     }
 }
