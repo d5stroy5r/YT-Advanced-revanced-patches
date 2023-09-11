@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">起動時のタブを登録チャンネルに変更</string>
     <string name="revanced_comments_title">コメント</string>
     <string name="revanced_copy_video_timestamp_success">タイムスタンプをクリップボードにコピーしました</string>
-    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
+    <string name="revanced_custom_filter_strings_summary">コンポーネント名でフィルター (改行区切り)</string>
     <string name="revanced_custom_filter_strings_title">カスタムフィルターを編集</string>
     <string name="revanced_custom_filter_summary_off">カスタムフィルターは無効です</string>
     <string name="revanced_custom_filter_summary_on">カスタムフィルターは有効です</string>
@@ -500,9 +500,9 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_hide_timed_reactions_summary_off">コメント欄のリアクション(一部の動画のみ表示)は表示されます</string>
     <string name="revanced_hide_timed_reactions_summary_on">コメント欄のリアクション(一部の動画のみ表示)は非表示です</string>
     <string name="revanced_hide_timed_reactions_title">コメント欄のリアクションを非表示</string>
-    <string name="revanced_hide_reminder_button_summary_off">ホームフィードの配信予定の動画の「通知する」ボタンは表示されます</string>
-    <string name="revanced_hide_reminder_button_summary_on">ホームフィードの配信予定の動画の「通知する」ボタンは非表示です</string>
-    <string name="revanced_hide_reminder_button_title">Hide notify me button in feed</string>
+    <string name="revanced_hide_reminder_button_summary_off">フィードの配信予定の動画の「通知する」ボタンは表示されます</string>
+    <string name="revanced_hide_reminder_button_summary_on">フィードの配信予定の動画の「通知する」ボタンは非表示です</string>
+    <string name="revanced_hide_reminder_button_title">フィードの「通知する」ボタンを非表示</string>
     <string name="revanced_hide_time_stamp_summary_off">タイムスタンプは表示されます</string>
     <string name="revanced_hide_time_stamp_summary_on">タイムスタンプは非表示です</string>
     <string name="revanced_hide_time_stamp_title">タイムスタンプを非表示</string>

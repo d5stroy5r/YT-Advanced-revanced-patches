@@ -9,8 +9,8 @@
     <string name="revanced_backup_summary">파일에서 ReVanced 설정을 가져오거나 ReVanced 설정을 파일로 내보냅니다.</string>
     <string name="revanced_bottom_player">플레이어 하단</string>
     <string name="revanced_button_container_title">버튼 컨테이너</string>
-    <string name="revanced_bypass_ambient_mode_restrictions_summary_off">영화 조명 모드를 배터리 절전 모드에서 비활성화합니다.</string>
-    <string name="revanced_bypass_ambient_mode_restrictions_summary_on">영화 조명 모드를 배터리 절전 모드에서 활성화합니다.</string>
+    <string name="revanced_bypass_ambient_mode_restrictions_summary_off">배터리 절전 모드에서 영화 조명 모드를 비활성화합니다.</string>
+    <string name="revanced_bypass_ambient_mode_restrictions_summary_on">배터리 절전 모드에서 영화 조명 모드를 활성화합니다.</string>
     <string name="revanced_bypass_ambient_mode_restrictions_title">영화 조명 모드 제한 비활성화하기</string>
     <string name="revanced_change_homepage_summary_off">현재 메인 페이지: 홈</string>
     <string name="revanced_change_homepage_summary_on">현재 메인 페이지: 구독</string>
@@ -283,10 +283,10 @@
     <string name="revanced_hide_expandable_chip_summary_off">다음 정보들이 노출됩니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품</string>
     <string name="revanced_hide_expandable_chip_summary_on">다음 정보들이 숨겨집니다:\n동영상 설명, 챕터, 주요 순간, 스크립트,\n재생목록의 동영상, 이 동영상에 나온 제품</string>
     <string name="revanced_hide_expandable_chip_title">썸네일 하단 동영상 관련 정보 숨기기</string>
-    <string name="revanced_hide_feed_flyout_panel_filter_strings_title">피드 구성요소 관련 메뉴 필터 편집하기</string>
-    <string name="revanced_hide_feed_flyout_panel_summary_off">피드 구성요소 관련 메뉴가 노출됩니다.</string>
-    <string name="revanced_hide_feed_flyout_panel_summary_on">피드 구성요소 관련 메뉴가 숨겨집니다.</string>
-    <string name="revanced_hide_feed_flyout_panel_title">피드 구성요소 관련 메뉴 숨기기</string>
+    <string name="revanced_hide_feed_flyout_panel_filter_strings_title">피드 구성요소 메뉴 필터 편집하기</string>
+    <string name="revanced_hide_feed_flyout_panel_summary_off">피드 구성요소 메뉴가 노출됩니다.</string>
+    <string name="revanced_hide_feed_flyout_panel_summary_on">피드 구성요소 메뉴가 숨겨집니다.</string>
+    <string name="revanced_hide_feed_flyout_panel_title">피드 구성요소 메뉴 숨기기</string>
     <string name="revanced_hide_feed_survey_summary_off">피드 설문 조사가 노출됩니다.</string>
     <string name="revanced_hide_feed_survey_summary_on">피드 설문 조사가 숨겨집니다.</string>
     <string name="revanced_hide_feed_survey_title">피드 설문 조사 숨기기</string>
@@ -312,7 +312,7 @@
     <string name="revanced_hide_gray_description_summary_on">회색 설명이 숨겨집니다.</string>
     <string name="revanced_hide_gray_description_title">회색 설명 숨기기</string>
     <string name="revanced_hide_gray_separator_summary_off">동영상들 사이에 있는 회색 구분선이 노출됩니다.</string>
-    <string name="revanced_hide_gray_separator_summary_on">동영상들 사이있는 회색 구분선이 숨겨집니다.</string>
+    <string name="revanced_hide_gray_separator_summary_on">동영상들 사이에 있는 회색 구분선이 숨겨집니다.</string>
     <string name="revanced_hide_gray_separator_title">회색 구분선 숨기기</string>
     <string name="revanced_hide_home_button_summary_off">홈 버튼이 노출됩니다.</string>
     <string name="revanced_hide_home_button_summary_on">홈 버튼이 숨겨집니다.</string>
@@ -434,8 +434,8 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="revanced_hide_quick_actions_related_videos_summary_off">동영상 더보기가 노출됩니다.</string>
     <string name="revanced_hide_quick_actions_related_videos_summary_on">동영상 더보기가 숨겨집니다.</string>
     <string name="revanced_hide_quick_actions_related_videos_title">동영상 더보기 숨기기</string>
-    <string name="revanced_hide_quick_actions_summary_off">빠른 작업 컨테이너가 재생바 하단에서 노출됩니다.</string>
-    <string name="revanced_hide_quick_actions_summary_on">빠른 작업 컨테이너가 재생바 하단에서 숨겨집니다.</string>
+    <string name="revanced_hide_quick_actions_summary_off">재생바 하단에서 빠른 작업 컨테이너가 노출됩니다.</string>
+    <string name="revanced_hide_quick_actions_summary_on">재생바 하단에서 빠른 작업 컨테이너가 숨겨집니다.</string>
     <string name="revanced_hide_quick_actions_title">빠른 작업 컨테이너 숨기기</string>
     <string name="revanced_hide_seekbar_summary_off">동영상 플레이어 재생바가 노출됩니다.</string>
     <string name="revanced_hide_seekbar_summary_on">동영상 플레이어 재생바가 숨겨집니다.</string>
@@ -686,8 +686,8 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="sb_enable_sb_sum">SponsorBlock은 YouTube 동영상 내 성가신 구간을 건너뛰게 해주는 크라우드소싱 시스템입니다.</string>
     <string name="sb_appearance_category">레이아웃</string>
     <string name="sb_enable_voting">투표 버튼 표시하기</string>
-    <string name="sb_enable_voting_sum_on">투표 버튼을 플레이어에 표시합니다.</string>
-    <string name="sb_enable_voting_sum_off">투표 버튼을 플레이어에 표시하지 않습니다.</string>
+    <string name="sb_enable_voting_sum_on">플레이어에서 투표 버튼을 표시합니다.</string>
+    <string name="sb_enable_voting_sum_off">플레이어에서 투표 버튼을 표시하지 않습니다.</string>
     <string name="sb_enable_compact_skip_button">소형 건너뛰기 버튼 표시하기</string>
     <string name="sb_enable_compact_skip_button_sum_on">최소화된 건너뛰기 버튼을 표시합니다.</string>
     <string name="sb_enable_compact_skip_button_sum_off">일반적인 건너뛰기 버튼을 표시합니다.</string>
@@ -702,8 +702,8 @@ YouTube 18.24.37 버전 이상에서만 적용 가능합니다."</string>
     <string name="sb_general_time_without_sum_off">건너뛸 구간을 포함한 전체 동영상 길이를 타임스탬프에 표시합니다.</string>
     <string name="sb_create_segment_category">새로운 구간 추가하기</string>
     <string name="sb_enable_create_segment">구간 추가 버튼 표시하기</string>
-    <string name="sb_enable_create_segment_sum_on">구간 추가 버튼을 플레이어에 표시합니다.</string>
-    <string name="sb_enable_create_segment_sum_off">구간 추가 버튼을 플레이어에 표시하지 않습니다.</string>
+    <string name="sb_enable_create_segment_sum_on">플레이어에서 구간 추가 버튼을 표시합니다.</string>
+    <string name="sb_enable_create_segment_sum_off">플레이어에서 구간 추가 버튼을 표시하지 않습니다.</string>
     <string name="sb_general_adjusting">구간 추가 시 최소 슬라이더 단위 설정</string>
     <string name="sb_general_adjusting_sum">새로운 구간 추가 시에 시간 앞으로 버튼 또는 뒤로 버튼을 눌렀을 때 이동하는 최소 시간으로, 단위는 밀리초입니다.</string>
     <string name="sb_general_adjusting_invalid">유효하지 않은 값입니다.</string>

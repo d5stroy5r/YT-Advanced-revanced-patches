@@ -276,7 +276,7 @@
     <string name="revanced_hide_emoji_picker_title">隱藏表情符號選擇器</string>
     <string name="revanced_hide_end_screen_cards_summary_off">片尾資訊卡已顯示</string>
     <string name="revanced_hide_end_screen_cards_summary_on">片尾資訊卡已隱藏</string>
-    <string name="revanced_hide_end_screen_cards_title">片尾資訊卡(頻道推薦) </string>
+    <string name="revanced_hide_end_screen_cards_title">隱藏片尾資訊卡 (頻道推薦)</string>
     <string name="revanced_hide_end_screen_overlay_summary_off">播放結束後的推薦影片已顯示</string>
     <string name="revanced_hide_end_screen_overlay_summary_on">播放結束後的推薦影片已隱藏</string>
     <string name="revanced_hide_end_screen_overlay_title">隱藏播放結束後的推薦影片</string>

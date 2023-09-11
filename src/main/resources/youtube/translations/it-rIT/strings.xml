@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Cambia la pagina iniziale</string>
     <string name="revanced_comments_title">Commenti</string>
     <string name="revanced_copy_video_timestamp_success">Marca temporale copiato negli appunti</string>
-    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
+    <string name="revanced_custom_filter_strings_summary">Filtra i componenti per nomi separati da righe</string>
     <string name="revanced_custom_filter_strings_title">Modifica il filtro personalizzato</string>
     <string name="revanced_custom_filter_summary_off">Il filtro personalizzato è disattivato</string>
     <string name="revanced_custom_filter_summary_on">Il filtro personalizzato è attivato</string>
@@ -659,11 +659,11 @@ Problemi noti:
     <string name="revanced_spoof_player_parameter_type_summary_on">"Simula i parametri del riproduttore in navigazione in incognito.
 
 Problemi noti:
-- Gli thumbnails della barra di avanzamento sono nascosti
 - La Modalità Ambient potrebbe non funzionare
 - I clip non possono essere riprodotti normalmente
 - Il download dei video potrebbe non funzionare
-- La sovrapposizione della pellicola è nascosta"</string>
+- La sovrapposizione della pellicola è nascosta
+- Gli thumbnails della barra di avanzamento sono nascosti"</string>
     <string name="revanced_spoof_player_parameter_type_title">Simula il tipo di parametri del riproduttore</string>
     <string name="revanced_spoof_player_parameter_summary">Simula il riproduttore per prevenire problemi di riproduzione.
 

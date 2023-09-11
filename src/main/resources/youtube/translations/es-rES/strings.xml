@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">Cambiar página de inicio a suscripciones</string>
     <string name="revanced_comments_title">Comentarios</string>
     <string name="revanced_copy_video_timestamp_success">Marca de tiempo copiada en el portapapeles</string>
-    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
+    <string name="revanced_custom_filter_strings_summary">Filtrar nombres de componentes separados por líneas</string>
     <string name="revanced_custom_filter_strings_title">Editar filtro personalizado</string>
     <string name="revanced_custom_filter_summary_off">El filtro personalizado está desactivado</string>
     <string name="revanced_custom_filter_summary_on">El filtro personalizado está activado</string>
