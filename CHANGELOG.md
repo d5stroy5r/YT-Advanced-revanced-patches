@@ -1,3 +1,44 @@
+# [2.190.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.189.1...v2.190.0) (2023-09-11)
+
+
+### Bug Fixes
+
+* compile error ([a034aa1](https://github.com/YT-Advanced/ReX-patches/commit/a034aa1eeb7146285d0224fd3c2c7d8f3189edfc))
+* **music/hide-upgrade-button:** not compatible with latest version ([caadc1d](https://github.com/YT-Advanced/ReX-patches/commit/caadc1d79a6079e347035b6cf02cd2ca1c1d8bae))
+* **music/remember-video-quality:** not compatible with latest version ([b3a28db](https://github.com/YT-Advanced/ReX-patches/commit/b3a28db9e2266848573b45a8c003219a70edb516))
+* **music/settings:** blank screen appears when text input dialog is shown ([bf608d1](https://github.com/YT-Advanced/ReX-patches/commit/bf608d178c5b15b6dbbb7c82cb84f3b773a069e0))
+* Whitelist for SponsorBlock disappear ([fdd50d3](https://github.com/YT-Advanced/ReX-patches/commit/fdd50d3f53f184de67da5775351e07fdc023e6a0))
+* **youtube/default-video-quality:** rollback commit ([67c2a4d](https://github.com/YT-Advanced/ReX-patches/commit/67c2a4dd0cee1d2083ce99b628a249b5804fd978))
+* **youtube/hide-layout-components:** custom filters are separated by commas instead of line-by-line ([a76bc27](https://github.com/YT-Advanced/ReX-patches/commit/a76bc27c640b5390cbab9f24040d7c92ace76a0c))
+* **youtube/higher-seekbar-height:** Readd feature ([4939e0e](https://github.com/YT-Advanced/ReX-patches/commit/4939e0efcc9a2513abb4c24f68e5dc19ce790387))
+* **youtube/old-quality-layout:** does not work on tablet devices ([56902fd](https://github.com/YT-Advanced/ReX-patches/commit/56902fd90099b11691fda7f96a824083e97ebfed))
+* **youtube/overlay-button:** overlay button not hidden when scrubbing seekbar ([4c40d83](https://github.com/YT-Advanced/ReX-patches/commit/4c40d830877de63152495ba8a98a0d15f3224206))
+
+
+### Features
+
+* Add support for `v18.35.36` ([71c7ff5](https://github.com/YT-Advanced/ReX-patches/commit/71c7ff5e0b65067968a93c37975f857771c59df1))
+* Hide flyout panel footer ([0b33a2b](https://github.com/YT-Advanced/ReX-patches/commit/0b33a2bdf17af45aa5a199c4f063f0f5f326f90c))
+* **music/amoled:** patch now applies the amoled theme to the comment input box as well ([cd25da2](https://github.com/YT-Advanced/ReX-patches/commit/cd25da22c5fc17c7522ad775163ab91b896152d1))
+* **music/enable-custom-filter:** separate filters by line instead of commas ([2d7e9b7](https://github.com/YT-Advanced/ReX-patches/commit/2d7e9b76ef5a387e2ecbbea653ce46ae02bfe3b3))
+* **music/hide-get-premium:** patch now also hides the premium membership label in settings ([af86f3b](https://github.com/YT-Advanced/ReX-patches/commit/af86f3b5d4092870735c58c54c2eb51537f94917))
+* **music/settings:** change some default value ([60257b2](https://github.com/YT-Advanced/ReX-patches/commit/60257b2cac9f178b9e869e04e8c1eeb86ab8a494))
+* **music/translations:** update translation ([c7bd978](https://github.com/YT-Advanced/ReX-patches/commit/c7bd9788237fa5f34e5b52c22f03399cd60d684c))
+* **music:** add `enable playback speed` patch ([2b48b08](https://github.com/YT-Advanced/ReX-patches/commit/2b48b084b070245bf21477621ffbb6e13481ee14))
+* **music:** add `enable-old-style-library-shelf` patch ([d96c89a](https://github.com/YT-Advanced/ReX-patches/commit/d96c89ac7d6f5e7a5ed016d058991878ab26f599))
+* **music:** add `hide-button-container-labels` patch ([d7d5af9](https://github.com/YT-Advanced/ReX-patches/commit/d7d5af9a0c611e1e8da9127358e2c17e4a41f873))
+* **music:** add `hide-emoji-picker` patch ([ebcfe57](https://github.com/YT-Advanced/ReX-patches/commit/ebcfe57d8195be27ff46a66b25eba550107bb1fe))
+* **music:** add `hide-flyout-panel` patch ([67e1757](https://github.com/YT-Advanced/ReX-patches/commit/67e1757fd7b370c29f2730834af04ca085267c90))
+* **music:** add `hide-radio-button` patch ([cb2eb38](https://github.com/YT-Advanced/ReX-patches/commit/cb2eb38049ebffe5684606940149f84f32c417d1))
+* **music:** add `remember-playback-speed` patch ([fa7d2b9](https://github.com/YT-Advanced/ReX-patches/commit/fa7d2b9f67c635b0bd58593a6a32f2d78c79d552))
+* **music:** add `return-youtube-dislike` patch ([7df46d5](https://github.com/YT-Advanced/ReX-patches/commit/7df46d52c612de1bff093aca5e8f2d3d74ab00d1))
+* **music:** add compatibility version constraints (ryd does not support older versions) ([73e155f](https://github.com/YT-Advanced/ReX-patches/commit/73e155f279a27588cacfd5baf31e8dd39d4b7b8b))
+* **music:** change patch description ([13bc973](https://github.com/YT-Advanced/ReX-patches/commit/13bc97326c0ff3fa4e8fb6ea5eda808ced633126))
+* **reddit:** remove `decoding-patch` that are no longer used ([435076d](https://github.com/YT-Advanced/ReX-patches/commit/435076d18e38fe1b9f28d9f8aeed400c7a7c6dee))
+* remove `decoding-patch` that are no longer used ([6654c3c](https://github.com/YT-Advanced/ReX-patches/commit/6654c3c82ca489742867466898f1ba427950555d))
+* Update translation ([abbc206](https://github.com/YT-Advanced/ReX-patches/commit/abbc206fdef9c6966bc95657a8f630deae5d3e3b))
+* **youtube:** Add support version `v18.35.xx` ([86e67ca](https://github.com/YT-Advanced/ReX-patches/commit/86e67cae4b099a0f038241ce4fc2e8c54f03deff))
+
 # [2.190.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.189.1...v2.190.0) (2023-09-09)
 
 
