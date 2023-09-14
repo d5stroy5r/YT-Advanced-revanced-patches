@@ -2,9 +2,7 @@ package app.revanced.patches.youtube.utils.sponsorblock.resource.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
-
 import app.revanced.patcher.data.ResourceContext
-
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
@@ -16,7 +14,7 @@ import app.revanced.util.resources.ResourceUtils.copyResources
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 
 @Patch
-@Name("Sponsorblock")
+@Name("SponsorBlock")
 @Description("Integrates SponsorBlock which allows skipping video segments such as sponsored content.")
 @DependsOn(
     [
@@ -25,8 +23,7 @@ import app.revanced.util.resources.ResourceUtils.copyXmlNode
     ]
 )
 @YouTubeCompatibility
-
-class SponsorBlockResourcePatch : ResourcePatch {
+class SponsorBlockPatch : ResourcePatch {
 
     override fun execute(context: ResourceContext) {
         /**
@@ -103,5 +100,6 @@ class SponsorBlockResourcePatch : ResourcePatch {
         SettingsPatch.addReVancedPreference("sponsorblock_settings")
 
         SettingsPatch.updatePatchStatus("sponsorblock")
+
     }
 }
