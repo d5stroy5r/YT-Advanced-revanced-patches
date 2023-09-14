@@ -523,6 +523,8 @@ Known issue: Autoplay does not work"</string>
     <string name="revanced_hide_video_ads_title">Hide video ads</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
+    <string name="revanced_whitelisting_ads">Video Ads</string>
+    <string name="revanced_whitelisting_ads_button">Ads</string>
     <string name="revanced_whitelisting_channel_name">Channel Name</string>
     <string name="revanced_whitelisting_empty">There are no whitelisted channels</string>
     <string name="revanced_whitelisting_excluded">Not added to whitelist</string>
@@ -681,8 +683,10 @@ Known issues
     <string name="revanced_swipe_overlay_text_size_title">Swipe overlay text size</string>
     <string name="revanced_swipe_overlay_timeout_summary">The amount of milliseconds the overlay is visible</string>
     <string name="revanced_swipe_overlay_timeout_title">Swipe overlay timeout</string>
-    <string name="revanced_switching_create_notification_summary_off">Create button is not switched with notifications</string>
-    <string name="revanced_switching_create_notification_summary_on">Create button is switched with notifications</string>
+    <string name="revanced_switching_create_notification_summary_off">"Create button is not switched with notifications
+Known issue: Ads Whitelist not worked when turned on"</string>
+    <string name="revanced_switching_create_notification_summary_on">"Create button is switched with notifications
+Known issue: Ads Whitelist not worked when turned on"</string>
     <string name="revanced_switching_create_notification_title">Switch create with notifications button</string>
     <string name="revanced_tool_used">Tool used</string>
     <string name="revanced_video">Video</string>
