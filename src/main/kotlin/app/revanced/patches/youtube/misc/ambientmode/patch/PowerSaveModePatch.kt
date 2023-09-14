@@ -12,6 +12,7 @@ import app.revanced.patcher.patch.PatchException
 
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
+import app.revanced.patches.youtube.misc.ambientmode.fingerprints.PowerSaveModeAlternativeFingerprint
 import app.revanced.patches.youtube.misc.ambientmode.fingerprints.PowerSaveModeFingerprint
 import app.revanced.patches.youtube.utils.annotations.YouTubeCompatibility
 import app.revanced.patches.youtube.utils.resourceid.patch.SharedResourceIdPatch
@@ -34,11 +35,19 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 @YouTubeCompatibility
 
 class PowerSaveModePatch : BytecodePatch(
-    listOf(PowerSaveModeFingerprint)
+    listOf(
+        PowerSaveModeAlternativeFingerprint,
+        PowerSaveModeFingerprint
+    )
 ) {
     override fun execute(context: BytecodeContext) {
 
-        PowerSaveModeFingerprint.result?.let {
+        val result =
+            PowerSaveModeFingerprint.result
+                ?: PowerSaveModeAlternativeFingerprint.result
+                ?: throw PowerSaveModeFingerprint.exception
+
+        result.let {
             it.mutableMethod.apply {
                 var insertIndex = -1
 
@@ -62,7 +71,7 @@ class PowerSaveModePatch : BytecodePatch(
                 if (insertIndex == -1)
                     throw PatchException("Couldn't find PowerManager reference")
             }
-        } ?: throw PowerSaveModeFingerprint.exception
+        }
 
         /**
          * Add settings
