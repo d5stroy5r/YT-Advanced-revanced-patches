@@ -34,9 +34,9 @@
     <string name="revanced_default_video_quality_mobile_title">モバイルデータ通信でのデフォルト画質</string>
     <string name="revanced_default_video_quality_wifi_title">Wi-Fi でのデフォルト画質</string>
     <string name="revanced_description_title">概要欄</string>
-    <string name="revanced_disable_auto_captions_summary_off">強制自動字幕は有効です</string>
-    <string name="revanced_disable_auto_captions_summary_on">強制自動字幕は無効です</string>
-    <string name="revanced_disable_auto_captions_title">強制自動字幕を無効化</string>
+    <string name="revanced_disable_auto_captions_summary_off">動画側で設定されている、字幕の強制は有効です</string>
+    <string name="revanced_disable_auto_captions_summary_on">動画側で設定されている、字幕の強制は無効です</string>
+    <string name="revanced_disable_auto_captions_title">字幕の強制を無効化</string>
     <string name="revanced_disable_default_playback_speed_live_summary_off">ライブでのデフォルト再生速度は有効です</string>
     <string name="revanced_disable_default_playback_speed_live_summary_on">ライブでのデフォルト再生速度は無効です</string>
     <string name="revanced_disable_default_playback_speed_live_title">ライブでのデフォルト再生速度を無効化</string>
@@ -99,7 +99,7 @@
     <string name="revanced_enable_old_quality_layout_title">古い形式の画質設定レイアウト</string>
     <string name="revanced_enable_open_links_directly_summary_off">デフォルトのリダイレクトルールに従います</string>
     <string name="revanced_enable_open_links_directly_summary_on">URL リダイレクトをバイパスします</string>
-    <string name="revanced_enable_open_links_directly_title">直リンクを有効化</string>
+    <string name="revanced_enable_open_links_directly_title">リダイレクトのバイパス</string>
     <string name="revanced_enable_phone_layout_summary">一部のスマートフォン用のレイアウトを使用できるように dpi を偽装します</string>
     <string name="revanced_enable_phone_layout_title">スマートフォン用のレイアウト</string>
     <string name="revanced_enable_press_to_swipe_summary_off">長押しスワイプコントロール(Press-to-Swipe)は無効です</string>
@@ -151,7 +151,7 @@
     <string name="revanced_external_downloader_installed">インストール済み</string>
     <string name="revanced_external_downloader_not_installed">未インストール</string>
     <string name="revanced_external_downloader_not_installed_warning" formatted="false">%s はインストールされていません。インストールしてください。</string>
-    <string name="revanced_external_downloader_package_name_summary">インストールされている NewPipe や YTDLnis などの外部の動画ダウンローダーアプリのパッケージ名</string>
+    <string name="revanced_external_downloader_package_name_summary">インストールされている、NewPipe や YTDLnis などの外部の動画ダウンローダーアプリのパッケージ名</string>
     <string name="revanced_external_downloader_package_name_title">外部ダウンローダーのパッケージ名</string>
     <string name="revanced_external_downloader_settings_summary">外部の動画ダウンローダーの使用設定</string>
     <string name="revanced_external_downloader_settings_title">外部ダウンローダーの設定</string>
@@ -210,7 +210,7 @@
     <string name="revanced_hide_button_report_summary_on">「報告」ボタンは非表示です</string>
     <string name="revanced_hide_button_report_title">報告ボタンを非表示</string>
     <string name="revanced_hide_button_rewards_summary_off">「特典」ボタンは表示されます</string>
-    <string name="revanced_hide_button_rewards_summary_on">特典ボタンは非表示です</string>
+    <string name="revanced_hide_button_rewards_summary_on">「特典」ボタンは非表示です</string>
     <string name="revanced_hide_button_rewards_title">特典ボタンを非表示</string>
     <string name="revanced_hide_button_share_summary_off">「共有」ボタンは表示されます</string>
     <string name="revanced_hide_button_share_summary_on">「共有」ボタンは非表示です</string>
@@ -264,7 +264,7 @@
     <string name="revanced_hide_community_posts_subscriptions_title">登録チャンネルフィードの投稿を非表示</string>
     <string name="revanced_hide_create_button_summary_off">「作成」ボタンは表示されます</string>
     <string name="revanced_hide_create_button_summary_on">「作成」ボタンは非表示です</string>
-    <string name="revanced_hide_create_button_title">「作成」ボタンを非表示</string>
+    <string name="revanced_hide_create_button_title">作成 ボタンを非表示</string>
     <string name="revanced_hide_crowdfunding_box_summary_off">クラウドファンディング欄は表示されます</string>
     <string name="revanced_hide_crowdfunding_box_summary_on">クラウドファンディング欄は非表示です</string>
     <string name="revanced_hide_crowdfunding_box_title">クラウドファンディング欄を非表示</string>
@@ -307,7 +307,7 @@
     <string name="revanced_hide_general_ads_title">全般的な広告を非表示</string>
     <string name="revanced_hide_get_premium_summary_off">YouTube Premium のプロモーションは表示されます</string>
     <string name="revanced_hide_get_premium_summary_on">YouTube Premium のプロモーションは非表示です</string>
-    <string name="revanced_hide_get_premium_title">YouTube Premium プロモーションを非表示</string>
+    <string name="revanced_hide_get_premium_title">Premium のプロモーションを非表示</string>
     <string name="revanced_hide_gray_description_summary_off">ホームフィードで表示される「〜の視聴者はこのチャンネルも見ています」などの説明は表示されます</string>
     <string name="revanced_hide_gray_description_summary_on">ホームフィードで表示される「〜の視聴者はこのチャンネルも見ています」などの説明は非表示です</string>
     <string name="revanced_hide_gray_description_title">ホームフィードのグレーの説明を非表示</string>
@@ -316,7 +316,7 @@
     <string name="revanced_hide_gray_separator_title">グレーのセパレーターを非表示</string>
     <string name="revanced_hide_home_button_summary_off">「ホーム」ボタンは表示されます</string>
     <string name="revanced_hide_home_button_summary_on">「ホーム」ボタンは非表示です</string>
-    <string name="revanced_hide_home_button_title">「ホーム」ボタンを非表示</string>
+    <string name="revanced_hide_home_button_title">ホーム ボタンを非表示</string>
     <string name="revanced_hide_image_shelf_summary_off">画像欄は表示されます</string>
     <string name="revanced_hide_image_shelf_summary_on">画像欄は非表示です</string>
     <string name="revanced_hide_image_shelf_title">画像欄を非表示</string>
@@ -337,7 +337,7 @@
     <string name="revanced_hide_latest_posts_title">最新の投稿を非表示</string>
     <string name="revanced_hide_library_button_summary_off">「ライブラリ」ボタンは表示されます</string>
     <string name="revanced_hide_library_button_summary_on">「ライブラリ」ボタンは非表示です</string>
-    <string name="revanced_hide_library_button_title">「ライブラリ」ボタンを非表示</string>
+    <string name="revanced_hide_library_button_title">ライブラリ ボタンを非表示</string>
     <string name="revanced_hide_latest_videos_button_summary_off">「最新の動画」ボタンは表示されます</string>
     <string name="revanced_hide_latest_videos_button_summary_on">「最新の動画」ボタンは非表示です</string>
     <string name="revanced_hide_latest_videos_button_title">「最新の動画」ボタンを非表示</string>
@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">「字幕」メニューは表示されます</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">「字幕」メニューは非表示です</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">字幕を非表示</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">Captions menu footer is shown</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">Captions menu footer is hidden</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">Hide captions menu footer</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">「ヘルプとフィードバック」メニューは表示されます</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">「ヘルプとフィードバック」メニューは非表示です</string>
     <string name="revanced_hide_player_flyout_panel_help_title">「ヘルプとフィードバック」を非表示</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">「〜の他の動画」メニューは表示されます</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">「〜の他の動画」メニューは非表示です</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">詳細情報メニューを非表示</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">Quality menu footer is shown</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">Quality menu footer is hidden</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">Hide quality menu footer</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">「報告」メニューは表示されます</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">「報告」メニューは非表示です</string>
     <string name="revanced_hide_player_flyout_panel_report_title">報告を非表示</string>
@@ -451,7 +457,7 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_hide_self_sponsor_cards_title">自己スポンサーカードを非表示</string>
     <string name="revanced_hide_shorts_button_summary_off">「ショート」ボタンは表示されます</string>
     <string name="revanced_hide_shorts_button_summary_on">「ショート」ボタンは非表示です</string>
-    <string name="revanced_hide_shorts_button_title">「ショート」ボタンを非表示</string>
+    <string name="revanced_hide_shorts_button_title">ショート ボタンを非表示</string>
     <string name="revanced_hide_shorts_component_summary">YouTube ショートプレーヤーのコンポーネント(高評価ボタン、共有ボタンなど)を非表示</string>
     <string name="revanced_hide_shorts_component_title">コンポーネント(高評価ボタン、共有ボタンなど)を非表示</string>
     <string name="revanced_hide_shorts_player_navigation_bar_summary_off">ナビゲーションバーは表示されます</string>
@@ -480,7 +486,7 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_hide_speed_overlay_title">再生速度のオーバーレイを非表示</string>
     <string name="revanced_hide_subscriptions_button_summary_off">「登録チャンネル」ボタンは表示されます</string>
     <string name="revanced_hide_subscriptions_button_summary_on">「登録チャンネル」ボタンは非表示です</string>
-    <string name="revanced_hide_subscriptions_button_title">「登録チャンネル」ボタンを非表示</string>
+    <string name="revanced_hide_subscriptions_button_title">登録チャンネル ボタンを非表示</string>
     <string name="revanced_hide_suggested_actions_summary_off">プレーヤー上の「Premium のコントロール」などの提案は表示されます</string>
     <string name="revanced_hide_suggested_actions_summary_on">プレーヤー上の「Premium のコントロール」などの提案は非表示です</string>
     <string name="revanced_hide_suggested_actions_title">提案されたアクションを非表示</string>
@@ -517,6 +523,8 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_hide_video_ads_title">動画広告を非表示</string>
     <string name="revanced_whitelisting_added" formatted="false">チャンネル %s を %s ホワイトリストに登録しました</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">チャンネル %s を %s ホワイトリストに登録できませんでした</string>
+    <string name="revanced_whitelisting_ads">Video Ads</string>
+    <string name="revanced_whitelisting_ads_button">Ads</string>
     <string name="revanced_whitelisting_channel_name">チャンネル名</string>
     <string name="revanced_whitelisting_empty">ホワイトリストに登録済みのチャンネルはありません</string>
     <string name="revanced_whitelisting_excluded">ホワイトリストに未登録です</string>
@@ -537,14 +545,14 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_whitelist_api_key_summary">ホワイトリスト機能で使用する YouTube API キー v3 を入力してください</string>
     <string name="revanced_hide_view_products_summary_off">「商品セクション」は表示されます</string>
     <string name="revanced_hide_view_products_summary_on">「商品セクション」は非表示です</string>
-    <string name="revanced_hide_view_products_title">「商品セクション」を非表示</string>
+    <string name="revanced_hide_view_products_title">商品セクション を非表示</string>
     <string name="revanced_hide_web_search_results_summary_off">「ウェブの検索結果」は表示されます</string>
     <string name="revanced_hide_web_search_results_summary_on">「ウェブの検索結果」は非表示です</string>
     <string name="revanced_hide_web_search_results_title">ウェブの検索結果 を非表示</string>
-    <string name="revanced_hide_youtube_music_button_summary_off">「YouTube Music」ボタンは表示されます</string>
-    <string name="revanced_hide_youtube_music_button_summary_on">「YouTube Music」ボタンは非表示です</string>
-    <string name="revanced_hide_youtube_music_button_title">「YouTube Music」ボタンを非表示</string>
-    <string name="revanced_import_settings_summary">ReVanced の設定ファイルを内部ストレージから読み込みます</string>
+    <string name="revanced_hide_youtube_music_button_summary_off">YouTube Music ボタンは表示されます</string>
+    <string name="revanced_hide_youtube_music_button_summary_on">YouTube Music ボタンは非表示です</string>
+    <string name="revanced_hide_youtube_music_button_title">YouTube Music ボタンを非表示</string>
+    <string name="revanced_import_settings_summary">ReVanced の設定をファイルから読み込みます</string>
     <string name="revanced_import_settings_title">設定をインポート</string>
     <string name="revanced_layout_title">レイアウト</string>
     <string name="revanced_misc">その他</string>
@@ -580,7 +588,7 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_player_flyout_panel_title">プレーヤーのフライアウトメニュー</string>
     <string name="revanced_player">プレーヤー</string>
     <string name="revanced_quick_actions_title">クイックアクション</string>
-    <string name="revanced_reboot_first_run">再起動してレイアウトを正常に読み込む</string>
+    <string name="revanced_reboot_first_run">再起動してレイアウトを正常に読み込みます</string>
     <string name="revanced_reboot_warning_general">"これはまだ実験的な機能であるため、他にも未知のバグがあるかもしれません。
 続行してもよろしいですか？"</string>
     <string name="revanced_reboot_warning_phone">"一部のレイアウトをスマートフォン用のレイアウトに変更するために dpi を偽装します。
@@ -596,7 +604,7 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_reboot_warning_vp9">"デバイス情報を偽装して VP9 コーデックを有効にします
 
 この設定は非常に古いので、有効にならない可能性があります"</string>
-    <string name="revanced_ryd_attribution_summary">低評価のデータは、Return YouTube Dislike API によって提供されています。詳しくはここをタップしてください。</string>
+    <string name="revanced_ryd_attribution_summary">低評価のデータは、Return YouTube Dislike API によって提供されています。詳細はここをタップしてください。</string>
     <string name="revanced_ryd_compact_layout_summary_off">高評価ボタンは最適なサイズで表示されます</string>
     <string name="revanced_ryd_compact_layout_summary_on">高評価ボタンはコンパクトに表示されます</string>
     <string name="revanced_ryd_compact_layout_title">コンパクトな高評価ボタン</string>
@@ -641,12 +649,12 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
 後からこの機能を無効にしても、データを消去するまで古い UI のままになる可能性があります
 "</string>
     <string name="revanced_spoof_app_version_title">アプリのバージョンを偽装</string>
-    <string name="revanced_spoof_app_version_target_entry_0">18.20.39 - 旧バージョンのプレイヤーフライアウトパネルを復元</string>
+    <string name="revanced_spoof_app_version_target_entry_0">18.20.39 - 旧バージョンのプレーヤーフライアウトパネルを復元</string>
     <string name="revanced_spoof_app_version_target_entry_1">18.09.39 - 旧バージョンのライブラリタブを復元</string>
     <string name="revanced_spoof_app_version_target_entry_2">17.41.37 - ライブラリタブで旧バージョンの再生リスト欄を復元</string>
     <string name="revanced_spoof_app_version_target_entry_3">17.08.35 - 旧バージョンの UI を復元</string>
     <string name="revanced_spoof_app_version_target_entry_4">16.08.35 - 探索タブを復元</string>
-    <string name="revanced_spoof_app_version_target_entry_title">偽装するバージョン</string>
+    <string name="revanced_spoof_app_version_target_entry_title">偽装するバージョンを選択</string>
     <string name="revanced_spoof_app_version_target_summary">偽装するバージョンを入力してください</string>
     <string name="revanced_spoof_app_version_target_title">偽装するアプリのバージョンを編集</string>
     <string name="revanced_spoof_player_parameter_type_summary_off">"パラメーターの種類: ショート
@@ -676,8 +684,10 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="revanced_swipe_overlay_text_size_title">オーバーレイのテキストサイズ</string>
     <string name="revanced_swipe_overlay_timeout_summary">スワイプオーバーレイが表示される時間 (単位: ミリ秒)</string>
     <string name="revanced_swipe_overlay_timeout_title">オーバーレイのタイムアウト</string>
-    <string name="revanced_switching_create_notification_summary_off">「作成」ボタンを「通知」ボタンと入れ替えません</string>
-    <string name="revanced_switching_create_notification_summary_on">「作成」ボタンを「通知」ボタンと入れ替えます</string>
+    <string name="revanced_switching_create_notification_summary_off">"Create button is not switched with notifications
+Known issue: Ads Whitelist not worked when turned on"</string>
+    <string name="revanced_switching_create_notification_summary_on">"Create button is switched with notifications
+Known issue: Ads Whitelist not worked when turned on"</string>
     <string name="revanced_switching_create_notification_title">「作成」を「通知」と入れ替え</string>
     <string name="revanced_tool_used">使用されたツール</string>
     <string name="revanced_video">動画</string>
@@ -688,8 +698,8 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="sb_enable_voting_sum_on">セグメント投票ボタンは表示されます</string>
     <string name="sb_enable_voting_sum_off">セグメント投票ボタンは表示されません</string>
     <string name="sb_enable_compact_skip_button">コンパクトなスキップボタン</string>
-    <string name="sb_enable_compact_skip_button_sum_on">スキップボタンをコンパクトなサイズにします</string>
-    <string name="sb_enable_compact_skip_button_sum_off">スキップボタンを最適なサイズにします</string>
+    <string name="sb_enable_compact_skip_button_sum_on">スキップボタンはコンパクトに表示されます</string>
+    <string name="sb_enable_compact_skip_button_sum_off">スキップボタンは最適なサイズで表示されます</string>
     <string name="sb_enable_auto_hide_skip_segment_button">スキップボタンを自動的に隠す</string>
     <string name="sb_enable_auto_hide_skip_segment_button_sum_on">スキップボタンは数秒後に非表示になります</string>
     <string name="sb_enable_auto_hide_skip_segment_button_sum_off">スキップボタンはセグメント全体で表示されます</string>
@@ -738,7 +748,7 @@ YouTube v18.24.37 以降でのみ利用可能です"</string>
     <string name="sb_segments_highlight">ハイライト</string>
     <string name="sb_segments_highlight_sum">動画の中で多くの人々が見たい部分</string>
     <string name="sb_segments_intro">休憩 / イントロアニメーション</string>
-    <string name="sb_segments_intro_sum">本編ではない部分。一時停止、静止画面、アニメーション繰り返しが含まれます。情報を含んだ転換画面は含まれません。</string>
+    <string name="sb_segments_intro_sum">本編ではない部分。一時停止、静止画面、アニメーションの繰り返しが含まれます。情報を含んだ転換画面は含まれません。</string>
     <string name="sb_segments_outro">エンドカード / クレジット</string>
     <string name="sb_segments_outro_sum">クレジットや動画のエンドカードが表示されている場面を含みます。動画の結論は含まれません。</string>
     <string name="sb_segments_preview">プレビュー / あらすじ</string>

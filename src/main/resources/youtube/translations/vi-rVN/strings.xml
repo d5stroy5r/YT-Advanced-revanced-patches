@@ -94,9 +94,9 @@
     <string name="revanced_enable_new_thumbnail_preview_title">Bản xem trước lớn hơn khi tua</string>
     <string name="revanced_enable_opus_codec_summary">Áp dụng codec âm thanh Opus thay vì MP4A</string>
     <string name="revanced_enable_opus_codec_title">Codec Opus</string>
-    <string name="revanced_enable_old_quality_layout_summary_off">Đang sử dụng bố cục Chất lượng video đang xem mặc định</string>
-    <string name="revanced_enable_old_quality_layout_summary_on">Đang sử dụng bố cục Chất lượng video đang xem kiểu cũ</string>
-    <string name="revanced_enable_old_quality_layout_title">Bố cục Chất lượng video kiểu cũ</string>
+    <string name="revanced_enable_old_quality_layout_summary_off">Đang sử dụng bố cục Chất lượng video mặc định</string>
+    <string name="revanced_enable_old_quality_layout_summary_on">Đang sử dụng bố cục Chất lượng video kiểu cũ</string>
+    <string name="revanced_enable_old_quality_layout_title">Bố cục Chất lượng kiểu cũ</string>
     <string name="revanced_enable_open_links_directly_summary_off">Đang chuyển hướng URL khi mở các liên kết xuất hiện trên YouTube</string>
     <string name="revanced_enable_open_links_directly_summary_on">Đang bỏ qua chuyển hướng URL khi mở các liên kết xuất hiện trên YouTube</string>
     <string name="revanced_enable_open_links_directly_title">Mở liên kết trực tiếp</string>
@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">Mục Phụ đề được hiển thị</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">Mục Phụ đề đã ẩn</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">Ẩn mục Phụ đề</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">Ghi chú cuối mục Phụ đề được hiển thị</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">Ghi chú cuối mục Phụ đề đã ẩn</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">Ẩn ghi chú cuối mục Phụ đề</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">Mục Trợ giúp và phản hồi được hiển thị</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">Mục Trợ giúp và phản hồi đã ẩn</string>
     <string name="revanced_hide_player_flyout_panel_help_title">Ẩn mục Trợ giúp và phản hồi</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">Mục Nội dung khác từ kênh được hiển thị</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">Mục Nội dung khác từ kênh đã ẩn</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">Ẩn mục Nội dung khác từ kênh</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">Ghi chú cuối mục Chất lượng video được hiển thị</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">Ghi chú cuối mục Chất lượng video đã ẩn</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">Ẩn ghi chú cuối mục Chất lượng</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">Mục Báo vi phạm được hiển thị</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">Mục Báo vi phạm đã ẩn</string>
     <string name="revanced_hide_player_flyout_panel_report_title">Ẩn mục Báo vi phạm</string>
@@ -517,6 +523,8 @@
     <string name="revanced_hide_video_ads_title">Ẩn quảng cáo dạng video</string>
     <string name="revanced_whitelisting_added" formatted="false">Đã thêm kênh %s vào danh sách trắng %s</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Thêm kênh %s vào danh sách trắng %s thất bại</string>
+    <string name="revanced_whitelisting_ads">Quảng cáo</string>
+    <string name="revanced_whitelisting_ads_button">Quảng cáo</string>
     <string name="revanced_whitelisting_channel_name">Tên kênh</string>
     <string name="revanced_whitelisting_empty">Không có kênh nào trong danh sách trắng</string>
     <string name="revanced_whitelisting_excluded">Chưa thêm vào danh sách trắng</string>
@@ -673,8 +681,10 @@ Sự cố đã biết:
     <string name="revanced_swipe_overlay_text_size_title">Kích thước văn bản trên lớp phủ vuốt</string>
     <string name="revanced_swipe_overlay_timeout_summary">Số mili giây mà lớp phủ vuốt được hiển thị</string>
     <string name="revanced_swipe_overlay_timeout_title">Thời gian hiển thị lớp phủ vuốt (mili giây)</string>
-    <string name="revanced_switching_create_notification_summary_off">Chuyển vị trí giữa nút Tạo và nút Thông báo đã tắt</string>
-    <string name="revanced_switching_create_notification_summary_on">Chuyển vị trí giữa nút Tạo và nút Thông báo đã bật</string>
+    <string name="revanced_switching_create_notification_summary_off">"Chuyển vị trí giữa nút Tạo và nút Thông báo đã tắt.
+\nLưu ý: Nếu bạn bật tuỳ chọn này, tính năng Danh sách trắng quảng cáo sẽ không hoạt động."</string>
+    <string name="revanced_switching_create_notification_summary_on">"Chuyển vị trí giữa nút Tạo và nút Thông báo đã bật.
+\nSự cố đã biết: Danh sách trắng quảng cáo không hoạt động."</string>
     <string name="revanced_switching_create_notification_title">Chuyển vị trí giữa nút Tạo và nút Thông báo</string>
     <string name="revanced_tool_used">Công cụ sử dụng</string>
     <string name="revanced_video">Video</string>

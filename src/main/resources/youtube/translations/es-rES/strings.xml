@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">El menú Subtítulos está visible</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">El menú Subtítulos está oculto</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">Ocultar menú Subtítulos</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">Captions menu footer is shown</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">Captions menu footer is hidden</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">Hide captions menu footer</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">El menú Ayuda y Comentarios está visible</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">El menú Ayuda y Comentarios está oculto</string>
     <string name="revanced_hide_player_flyout_panel_help_title">Ocultar menú Ayuda y Comentarios</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">El menú Más Información está visible</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">El menú Más Información está oculto</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">Ocultar menú Más Información</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">Quality menu footer is shown</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">Quality menu footer is hidden</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">Hide quality menu footer</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">El menú Denunciar está visible</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">El menú Denunciar está oculto</string>
     <string name="revanced_hide_player_flyout_panel_report_title">Ocultar menú Denunciar</string>
@@ -517,6 +523,8 @@ Solo disponible en YouTube v18.24.37+"</string>
     <string name="revanced_hide_video_ads_title">Ocultar anuncios de vídeo</string>
     <string name="revanced_whitelisting_added" formatted="false">El canal %s se agregó a la lista blanca de %s</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Error al agregar el canal %s a la lista blanca de %s</string>
+    <string name="revanced_whitelisting_ads">Video Ads</string>
+    <string name="revanced_whitelisting_ads_button">Ads</string>
     <string name="revanced_whitelisting_channel_name">Nombre del Canal</string>
     <string name="revanced_whitelisting_empty">No hay canales en la lista blanca</string>
     <string name="revanced_whitelisting_excluded">No añadido a la lista blanca</string>
@@ -650,7 +658,7 @@ Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hast
     <string name="revanced_spoof_app_version_target_entry_title">Versión a usar de la aplicación</string>
     <string name="revanced_spoof_app_version_target_summary">Escriba la versión a modificar de la app</string>
     <string name="revanced_spoof_app_version_target_title">Modificar versión de aplicación</string>
-    <string name="revanced_spoof_player_parameter_type_summary_off">"Parámetros del jugador de Shorts
+    <string name="revanced_spoof_player_parameter_type_summary_off">"Parámetros del reproductor de Shorts
 
  Problemas conocidos
  - El video puede tener problemas de reproducción en 1:10
@@ -665,7 +673,7 @@ Si más tarde se desactiva, la antigua interfaz de usuario puede permanecer hast
  - El clip no se puede reproducir normalmente.
  - Es posible que la descarga de vídeos no funcione
  - La superposición de tiras de película siempre está oculta"</string>
-    <string name="revanced_spoof_player_parameter_type_title">Tipo de parámetro de jugador falso</string>
+    <string name="revanced_spoof_player_parameter_type_title">Tipo de parámetro del reproductor falso</string>
     <string name="revanced_spoof_player_parameter_summary">Los parámetros del reproductor se modifican para evitar problemas de reproducción
 
 Problemas conocidos
@@ -684,8 +692,10 @@ Problemas conocidos
     <string name="revanced_swipe_overlay_text_size_title">Tamaño del texto de superposición de deslizamiento</string>
     <string name="revanced_swipe_overlay_timeout_summary">La cantidad de milisegundos que la superposición es visible</string>
     <string name="revanced_swipe_overlay_timeout_title">Tiempo de espera de superposición de deslizamiento</string>
-    <string name="revanced_switching_create_notification_summary_off">El botón Crear no se cambia con las notificaciones</string>
-    <string name="revanced_switching_create_notification_summary_on">El botón Crear se cambia con las notificaciones</string>
+    <string name="revanced_switching_create_notification_summary_off">"Create button is not switched with notifications
+Known issue: Ads Whitelist not worked when turned on"</string>
+    <string name="revanced_switching_create_notification_summary_on">"Create button is switched with notifications
+Known issue: Ads Whitelist not worked when turned on"</string>
     <string name="revanced_switching_create_notification_title">Cambiar Crear con botón de notificaciones</string>
     <string name="revanced_tool_used">Herramienta utilizada</string>
     <string name="revanced_video">Vídeo</string>

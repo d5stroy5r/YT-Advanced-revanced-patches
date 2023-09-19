@@ -17,7 +17,7 @@
     <string name="revanced_change_homepage_title">প্রধান পাতা সাবস্ক্রিপশনে পরিবর্তন করুন</string>
     <string name="revanced_comments_title">মন্তব্য</string>
     <string name="revanced_copy_video_timestamp_success">টাইম স্ট্যাম্প ক্লিপবোর্ডে কপি হয়েছে</string>
-    <string name="revanced_custom_filter_strings_summary">Filter component names by line-seperated</string>
+    <string name="revanced_custom_filter_strings_summary">ভিন্ন লাইনে ফিল্টারযোগ্য উপাদানের নাম লিখুন</string>
     <string name="revanced_custom_filter_strings_title">কাস্টম ফিল্টার সম্পাদনা করুন</string>
     <string name="revanced_custom_filter_summary_off">কাস্টম ফিল্টার নিস্ক্রিয় আছে</string>
     <string name="revanced_custom_filter_summary_on">কাস্টম ফিল্টার সক্রিয় আছে</string>
@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">ক্যাপশন মেনু প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">ক্যাপশন মেনু লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">ক্যাপশন মেনু লুকান</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">ক্যাপশন মেনু ফুটার প্রদর্শিত হয়েছে</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">ক্যাপশন মেনু ফুটার লুকিয়ে রয়েছে</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">ক্যাপশন মেনু ফুটার লুকান</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">সহায়তা ও প্রতিক্রিয়া মেনু প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">সহায়তা ও প্রতিক্রিয়া মেনু লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_help_title">সহায়তা ও প্রতিক্রিয়া মেনু লুকান</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">আরও তথ্য মেনু প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">আরও তথ্য মেনু লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">আরও তথ্য মেনু লুকান</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">কোয়ালিটি মেনু ফুটার প্রদর্শিত হয়েছে</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">কোয়ালিটি মেনু ফুটার লুকিয়ে রয়েছে</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">কোয়ালিটি মেনু ফুটার লুকান</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">রিপোর্ট মেনু প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">রিপোর্ট মেনু লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_player_flyout_panel_report_title">রিপোর্ট মেনু লুকান</string>
@@ -502,7 +508,7 @@
     <string name="revanced_hide_timed_reactions_title">সময় অনুযায়ী প্রতিক্রিয়া লুকান</string>
     <string name="revanced_hide_reminder_button_summary_off">আমাকে জানান বাটন প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_reminder_button_summary_on">আমাকে জানান বাটন লুকিয়ে রয়েছে</string>
-    <string name="revanced_hide_reminder_button_title">Hide notify me button in feed</string>
+    <string name="revanced_hide_reminder_button_title">ফিডে আমাকে জানান বাটন লুকান</string>
     <string name="revanced_hide_time_stamp_summary_off">টাইম স্ট্যাম্প প্রদর্শিত হয়েছে</string>
     <string name="revanced_hide_time_stamp_summary_on">টাইম স্ট্যাম্প লুকিয়ে রয়েছে</string>
     <string name="revanced_hide_time_stamp_title">টাইম স্ট্যাম্প লুকান</string>
@@ -517,6 +523,8 @@
     <string name="revanced_hide_video_ads_title">ভিডিও বিজ্ঞাপন লুকান</string>
     <string name="revanced_whitelisting_added" formatted="false">%s চ্যানেল কে %s হোয়াইটলিস্টে যুক্ত করা হয়েছে</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">%s চ্যানেল কে %s হোয়াইটলিস্টে অ্যাড করতে ব্যর্থ হয়েছে</string>
+    <string name="revanced_whitelisting_ads">ভিডিও বিজ্ঞঅপন</string>
+    <string name="revanced_whitelisting_ads_button">বিজ্ঞাপন</string>
     <string name="revanced_whitelisting_channel_name">চ্যানেলের নাম</string>
     <string name="revanced_whitelisting_empty">কোনো হোয়াইটলিস্ট চ্যানেল নেই</string>
     <string name="revanced_whitelisting_excluded">হোয়াইটলিস্টে যুক্ত হয়নি</string>
@@ -683,8 +691,12 @@
     <string name="revanced_swipe_overlay_text_size_title">সোয়াইপ ওভারলে টেক্সট সাইজ</string>
     <string name="revanced_swipe_overlay_timeout_summary">কত মিলিসেকেন্ডের জন্য ওভারলে দৃশ্যমান হবে</string>
     <string name="revanced_swipe_overlay_timeout_title">সোয়াইপ ওভারলে টাইমআউট</string>
-    <string name="revanced_switching_create_notification_summary_off">তৈরি বাটনকে বিজ্ঞপ্তিসমূহের বাটনের সাথে সুইচ করা হয়নি</string>
-    <string name="revanced_switching_create_notification_summary_on">তৈরি বাটনকে বিজ্ঞপ্তিসমূহের বাটনের সাথে সুইচ করা হয়েছে</string>
+    <string name="revanced_switching_create_notification_summary_off">"ক্রিয়েট বাটন বিজ্ঞপ্তি বাটনের সাথে সুইচ হয়নি
+জানা সমস্যা:
+অন অবস্থায় বিজ্ঞাপন হোয়াইটলিস্ট কাজ নাও করতে পারে"</string>
+    <string name="revanced_switching_create_notification_summary_on">"ক্রিয়েট বাটন বিজ্ঞপ্তি বাটনের সাথে সুইচ হয়েছে
+জানা সমস্যা:
+অন অবস্থায় বিজ্ঞাপন হোয়াইটলিস্ট কাজ নাও করতে পারে"</string>
     <string name="revanced_switching_create_notification_title">তৈরি বাটনকে বিজ্ঞপ্তিসমূহের বাটনের সাথে সুইচ করুন</string>
     <string name="revanced_tool_used">ব্যবহৃত টুল</string>
     <string name="revanced_video">ভিডিও</string>

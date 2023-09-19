@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">Il menù Sottotitoli è visibile</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">Il menù Sottotitoli è nascosto</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">Nascondi il menù Sottotitoli</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">La parte inferiore del menu Sottotitoli è visibile</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">La parte inferiore del menu Sottotitoli è nascosta</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">Nascondi la parte inferiore del menu Sottotitoli</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">Il menù Guida e Feedback è visibile</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">Il menù Guida e Feedback è nascosto</string>
     <string name="revanced_hide_player_flyout_panel_help_title">Nascondi il menù Guida e Feedback</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">Il menù Altro da ... è visibile</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">Il menù Altro da ... è nascosto</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">Nascondi il menù Altro da ...</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">La parte inferiore del menu Qualità è visibile</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">La parte inferiore del menu Qualità è nascosta</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">Nascondi la parte inferiore del menu Qualità</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">Il menù Segnala è visibile</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">Il menù Segnala è nascosto</string>
     <string name="revanced_hide_player_flyout_panel_report_title">Nascondi il menù Segnala</string>
@@ -518,6 +524,8 @@ Problema noto: la riproduzione automatica non funziona"</string>
     <string name="revanced_hide_video_ads_title">Nascondi gli annunci dei video</string>
     <string name="revanced_whitelisting_added" formatted="false">Il canale %s è stato aggiunto alla whitelist %s</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Impossibile aggiungere il canale %s alla whitelist %s</string>
+    <string name="revanced_whitelisting_ads">Annunci video</string>
+    <string name="revanced_whitelisting_ads_button">Annunci</string>
     <string name="revanced_whitelisting_channel_name">Nome del canale</string>
     <string name="revanced_whitelisting_empty">Non ci sono canali nella whitelist</string>
     <string name="revanced_whitelisting_excluded">Non è stato aggiunto alla whitelist</string>
@@ -665,14 +673,7 @@ Problemi noti:
 - La sovrapposizione della pellicola è nascosta
 - Gli thumbnails della barra di avanzamento sono nascosti"</string>
     <string name="revanced_spoof_player_parameter_type_title">Simula il tipo di parametri del riproduttore</string>
-    <string name="revanced_spoof_player_parameter_summary">Simula il riproduttore per prevenire problemi di riproduzione.
-
-Problemi noti:
-- La Modalità Ambient potrebbe non funzionare
-- I clip non possono essere riprodotti normalmente
-- Il download dei video potrebbe non funzionare
-- La sovrapposizione della pellicola è sempre nascosta
-- L\'anteprima degli thumbnails della barra di avanzamento è sempre nascosta</string>
+    <string name="revanced_spoof_player_parameter_summary">Simula il riproduttore per prevenire problemi di riproduzione</string>
     <string name="revanced_spoof_player_parameter_title">Simula i parametri del riproduttore</string>
     <string name="revanced_swipe_controls">Controlli a scorrimento</string>
     <string name="revanced_swipe_magnitude_threshold_summary">La quantità di interazioni prima che lo scorrimento si verifichi</string>
@@ -683,8 +684,12 @@ Problemi noti:
     <string name="revanced_swipe_overlay_text_size_title">Dimensione testo sovrapposto con scorrimento</string>
     <string name="revanced_swipe_overlay_timeout_summary">Visibilità in millisecondi della sovrapposizione</string>
     <string name="revanced_swipe_overlay_timeout_title">Durata sovrapposizione scorrimento</string>
-    <string name="revanced_switching_create_notification_summary_off">Il pulsante Crea e il pulsante Notifiche non sono invertiti</string>
-    <string name="revanced_switching_create_notification_summary_on">Il pulsante Crea e il pulsante Notifiche sono invertiti</string>
+    <string name="revanced_switching_create_notification_summary_off">"Il pulsante Crea non è scambiato con il pulsante Notifiche.
+
+Problema noto: quando sono scambiati, la whitelist degli annunci non funziona"</string>
+    <string name="revanced_switching_create_notification_summary_on">"Il pulsante Crea è scambiato con il pulsante Notifiche.
+
+Problema noto: quando sono scambiati, la whitelist degli annunci non funziona"</string>
     <string name="revanced_switching_create_notification_title">Scambia il pulsante Crea con il pulsante Notifiche</string>
     <string name="revanced_tool_used">Tool usati</string>
     <string name="revanced_video">Video</string>

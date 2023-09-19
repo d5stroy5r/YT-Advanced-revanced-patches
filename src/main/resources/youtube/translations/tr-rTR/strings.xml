@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">Gizlenmiyor</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">Gizleniyor</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">\"Altyazılar\" menüsü</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">Gizlenmiyor</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">Gizleniyor</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">\"Altyazılar\" menüsü altbilgi</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">Yardım &amp; geri bildirim menüsü gösterilir</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">Yardım &amp; geri bildirim menüsü gizlendi</string>
     <string name="revanced_hide_player_flyout_panel_help_title">Yardım &amp; geri bildirim menüsünü gizle</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">Gizlenmiyor</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">Gizleniyor</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">Daha Fazla Bilgi Menüsünü Gizle</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">Gizlenmiyor</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">Gizlenmiyor</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">\"Kalite\" menüsü altbilgi</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">Gizlenmiyor</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">Gizleniyor</string>
     <string name="revanced_hide_player_flyout_panel_report_title">Rapor Menüsünü Sakla</string>
@@ -516,6 +522,8 @@ Bilinen sorun: otomatik oynatma çalışmıyor"</string>
     <string name="revanced_hide_video_ads_title">Video reklamlarını gizle</string>
     <string name="revanced_whitelisting_added" formatted="false">%s kanalı %s beyaz listesine eklendi</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">%s kanalı %s beyaz listesine eklenemedi</string>
+    <string name="revanced_whitelisting_ads">Video reklamları</string>
+    <string name="revanced_whitelisting_ads_button">Reklamlar</string>
     <string name="revanced_whitelisting_channel_name">Kanal adı</string>
     <string name="revanced_whitelisting_empty">Beyaz listeye alınmış kanal yok</string>
     <string name="revanced_whitelisting_excluded">Beyaz listeye eklenmedi</string>
@@ -679,8 +687,8 @@ Bilinen sorunlar
     <string name="revanced_swipe_overlay_text_size_title">Kaydırma metin boyutu</string>
     <string name="revanced_swipe_overlay_timeout_summary">Kaplamanın görünür olduğu milisaniye miktarı</string>
     <string name="revanced_swipe_overlay_timeout_title">Kaydırma zaman aşımı</string>
-    <string name="revanced_switching_create_notification_summary_off">Değiştirilmiyor</string>
-    <string name="revanced_switching_create_notification_summary_on">Değiştiliyor</string>
+    <string name="revanced_switching_create_notification_summary_off">"Değiştirilmiyor"</string>
+    <string name="revanced_switching_create_notification_summary_on">"Değiştiliyor"</string>
     <string name="revanced_switching_create_notification_title">Bildirimler düğmesiyle oluşturmayı değiştir</string>
     <string name="revanced_tool_used">araç kullanıldı</string>
     <string name="revanced_video">Video</string>

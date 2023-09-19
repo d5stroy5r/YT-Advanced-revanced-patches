@@ -383,6 +383,9 @@
     <string name="revanced_hide_player_flyout_panel_captions_summary_off">Меню субтитрів показується</string>
     <string name="revanced_hide_player_flyout_panel_captions_summary_on">Меню субтитрів приховано</string>
     <string name="revanced_hide_player_flyout_panel_captions_title">Приховати меню субтитрів</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_off">Колонтитул меню субтитрів показується</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_summary_on">Колонтитул меню субтитрів приховано</string>
+    <string name="revanced_hide_player_flyout_panel_captions_footer_title">Приховати колонтитул меню субтитрів</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_off">Меню допомоги та підтримки показується</string>
     <string name="revanced_hide_player_flyout_panel_help_summary_on">Меню допомоги та підтримки приховано</string>
     <string name="revanced_hide_player_flyout_panel_help_title">Приховати меню допомоги та підтримки</string>
@@ -401,6 +404,9 @@
     <string name="revanced_hide_player_flyout_panel_more_info_summary_off">Меню додаткової інформації показується</string>
     <string name="revanced_hide_player_flyout_panel_more_info_summary_on">Меню додаткової інформації приховано</string>
     <string name="revanced_hide_player_flyout_panel_more_info_title">Приховати меню додаткової інформації</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_off">Колонтитул меню якості показується</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_summary_on">Колонтитул меню якості приховано</string>
+    <string name="revanced_hide_player_flyout_panel_quality_footer_title">Приховати колонтитул меню якості</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_off">Меню скарг показується</string>
     <string name="revanced_hide_player_flyout_panel_report_summary_on">Меню скарг приховано</string>
     <string name="revanced_hide_player_flyout_panel_report_title">Приховати меню скарг</string>
@@ -517,6 +523,8 @@
     <string name="revanced_hide_video_ads_title">Приховати відеорекламу</string>
     <string name="revanced_whitelisting_added" formatted="false">Канал %s додано до білого списку %s</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Не вдалося додати канал %s до білого списку %s</string>
+    <string name="revanced_whitelisting_ads">Відеореклама</string>
+    <string name="revanced_whitelisting_ads_button">Реклама</string>
     <string name="revanced_whitelisting_channel_name">Назва каналу</string>
     <string name="revanced_whitelisting_empty">Немає каналів з білого списку</string>
     <string name="revanced_whitelisting_excluded">Не додано до білого списку</string>
@@ -675,8 +683,10 @@
     <string name="revanced_swipe_overlay_text_size_title">Розмір шрифту панелі</string>
     <string name="revanced_swipe_overlay_timeout_summary">Скільки мілісекунд панель буде показуватися</string>
     <string name="revanced_swipe_overlay_timeout_title">Час показу панелі</string>
-    <string name="revanced_switching_create_notification_summary_off">Кнопка створення не міняється з кнопкою сповіщень</string>
-    <string name="revanced_switching_create_notification_summary_on">Кнопка створення міняється з кнопкою сповіщень</string>
+    <string name="revanced_switching_create_notification_summary_off">"Кнопка створення не міняється з кнопкою сповіщень
+Відома проблема: білий список реклами не працює коли увімкнуто"</string>
+    <string name="revanced_switching_create_notification_summary_on">"Кнопка створення міняється з кнопкою сповіщень
+Відома проблема: білий список реклами не працює коли увімкнуто"</string>
     <string name="revanced_switching_create_notification_title">Поміняти кнопку створення з кнопкою сповіщень</string>
     <string name="revanced_tool_used">Використано інструменти</string>
     <string name="revanced_video">Відео</string>
