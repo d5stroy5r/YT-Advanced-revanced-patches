@@ -9,6 +9,10 @@ import app.revanced.patcher.annotation.Package
             "com.google.android.apps.youtube.music",
             arrayOf(
                 "6.15.52",
+                "6.16.52",
+                "6.17.52",
+                "6.18.52",
+                "6.19.51",
                 "6.20.51"
             )
         )
