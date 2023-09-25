@@ -10,6 +10,7 @@ ReVanced Extended Patches.
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
 | `add-splash-animation` | Adds splash animation, which was removed in YT v18.19.36+. This patch cannot be used with 'custom-branding-icon' patch | 18.19.36 ~ 18.31.40 |
+| `alternative-thumbnails` | Adds an option to replace video thumbnails with still image captures of the video. | 18.19.36 ~ 18.31.40 |
 | `append-time-stamps-information` | Add the current video quality or playback speed in brackets next to the current time. | 18.19.36 ~ 18.31.40 |
 | `bypass-ambient-mode-restrictions` | Bypass ambient mode restrictions in battery saver mode. | 18.19.36 ~ 18.31.40 |
 | `change-homepage` | Change home page to subscription feed. | 18.19.36 ~ 18.31.40 |
@@ -96,6 +97,7 @@ ReVanced Extended Patches.
 | `hide-tooltip-content` | Hides the tooltip box that appears on first install. | 18.19.36 ~ 18.31.40 |
 | `hide-trending-searches` | Hide trending searches in the search bar. | 18.19.36 ~ 18.31.40 |
 | `hide-video-ads` | Hides ads in the video player. | 18.19.36 ~ 18.31.40 |
+| `higher-fullscreen-seekbar-height` | When turned on Hide Fullscreen Bottom Container, the seekbar become unclickable for some users. This patch will solve it. | 18.19.36 ~ 18.31.40 |
 | `language-switch` | Add language switch toggle. | 18.19.36 ~ 18.31.40 |
 | `layout-switch` | Tricks the dpi to use some tablet/phone layouts. | 18.19.36 ~ 18.31.40 |
 | `materialyou` | Enables MaterialYou theme for Android 12+ | 18.19.36 ~ 18.31.40 |

@@ -1,3 +1,10 @@
+# [2.192.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.191.1...v2.192.0) (2023-09-25)
+
+
+### Features
+
+* Update Music version ([64203c7](https://github.com/YT-Advanced/ReX-patches/commit/64203c7b5438c780af2645708310cd79566ee91d))
+
 # [2.160.0](https://github.com/revanced/revanced-patches/compare/v2.159.0...v2.160.0) (2023-02-10)
 
 
