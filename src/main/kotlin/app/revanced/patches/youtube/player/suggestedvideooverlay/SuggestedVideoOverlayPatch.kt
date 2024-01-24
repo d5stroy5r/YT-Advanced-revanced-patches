@@ -85,7 +85,7 @@ object SuggestedVideoOverlayPatch : BytecodePatch(
                 val index = it.scanResult.patternScanResult!!.startIndex + 1
                 val reference = getInstruction<Instruction35c>(index).reference.toString()
 
-                if (reference == "Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V")
+                if (reference == "Landroid/view/View;->setOnClickListener(Landroid/view/View\$OnClickListener;)V")
                     continue;
 
                 val register = getInstruction<TwoRegisterInstruction>(index).registerA
