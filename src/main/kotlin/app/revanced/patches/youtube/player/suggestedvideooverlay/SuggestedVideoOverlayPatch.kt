@@ -85,10 +85,11 @@ object SuggestedVideoOverlayPatch : BytecodePatch(
                 val targetIndex = it.scanResult.patternScanResult!!.startIndex + 1
                 val targetReference =
                     getInstruction<ReferenceInstruction>(targetIndex).reference.toString()
-                val targetRegister = getInstruction<Instruction35c>(targetIndex).registerC
                 
                 if (targetReference != "Landroid/view/View;->setOnClickListener(Landroid/view/View\$OnClickListener;)V")
                     throw TouchAreaOnClickListenerFingerprint.exception
+
+                val targetRegister = getInstruction<Instruction35c>(targetIndex).registerC
 
                 addInstruction(
                     targetIndex + 1,
