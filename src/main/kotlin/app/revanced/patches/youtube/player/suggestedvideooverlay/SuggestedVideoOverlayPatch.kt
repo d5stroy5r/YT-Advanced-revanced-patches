@@ -82,13 +82,18 @@ object SuggestedVideoOverlayPatch : BytecodePatch(
 
         TouchAreaOnClickListenerFingerprint.result?.let {
             it.mutableMethod.apply {
-                val insertIndex = it.scanResult.patternScanResult!!.startIndex + 1
-                val register = getInstruction<TwoRegisterInstruction>(insertIndex).registerA
+                val index = it.scanResult.patternScanResult!!.startIndex + 1
+                val reference = getInstruction<Instruction35c>(index).reference.toString()
 
+                if (reference == "Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V")
+                    continue;
+
+                val register = getInstruction<TwoRegisterInstruction>(index).registerA
                 addInstruction(
-                    insertIndex + 1,
+                    index + 1,
                     "invoke-static {v$register}, $PLAYER->hideSuggestedVideoOverlay(Landroid/view/View;)V"
                 )
+                break;
             }
         } ?: throw TouchAreaOnClickListenerFingerprint.exception
 
