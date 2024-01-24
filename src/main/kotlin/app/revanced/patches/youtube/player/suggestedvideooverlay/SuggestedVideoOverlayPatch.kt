@@ -83,10 +83,16 @@ object SuggestedVideoOverlayPatch : BytecodePatch(
         TouchAreaOnClickListenerFingerprint.result?.let {
             it.mutableMethod.apply {
                 val index = it.scanResult.patternScanResult!!.startIndex + 1
-                val register = getInstruction<TwoRegisterInstruction>(index).registerA
+                val targetReference =
+                    getInstruction<ReferenceInstruction>(targetIndex).reference.toString()
+                val targetRegister = getInstruction<TwoRegisterInstruction>(index).registerA
+                
+                if (targetReference != "Landroid/view/View;->setOnClickListener(Landroid/view/View\$OnClickListener;)V")
+                    throw PivotBarSetTextFingerprint.exception
+
                 addInstruction(
                     index + 1,
-                    "invoke-static {v$register}, $PLAYER->hideSuggestedVideoOverlay(Landroid/view/View;)V"
+                    "invoke-static {v$targetRegister}, $PLAYER->hideSuggestedVideoOverlay(Landroid/view/View;)V"
                 )
             }
         } ?: throw TouchAreaOnClickListenerFingerprint.exception
