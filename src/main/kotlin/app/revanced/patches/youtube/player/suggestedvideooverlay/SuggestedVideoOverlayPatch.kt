@@ -15,7 +15,7 @@ import app.revanced.patches.youtube.utils.resourceid.SharedResourceIdPatch.CoreC
 import app.revanced.patches.youtube.utils.settings.SettingsPatch
 import app.revanced.util.exception
 import app.revanced.util.getWideLiteralInstructionIndex
-import com.android.tools.smali.dexlib2.iface.instruction.Instruction35c
+import com.android.tools.smali.dexlib2.iface.instruction.formats.Instruction35c
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 @Patch(
@@ -88,7 +88,7 @@ object SuggestedVideoOverlayPatch : BytecodePatch(
                 val targetRegister = getInstruction<Instruction35c>(targetindex).registerC
                 
                 if (targetReference != "Landroid/view/View;->setOnClickListener(Landroid/view/View\$OnClickListener;)V")
-                    throw PivotBarSetTextFingerprint.exception
+                    throw TouchAreaOnClickListenerFingerprint.exception
 
                 addInstruction(
                     targetindex + 1,
