@@ -8,7 +8,7 @@ import com.android.tools.smali.dexlib2.Opcode
 internal object TouchAreaOnClickListenerFingerprint : MethodFingerprint(
     returnType = "V",
     accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
-    parameters = listOf("Ljava/lang/Object"),
+    parameters = listOf("Landroid/view/View$OnClickListener;"),
     opcodes = listOf(
         Opcode.IGET_OBJECT,
         Opcode.INVOKE_VIRTUAL,
@@ -18,9 +18,7 @@ internal object TouchAreaOnClickListenerFingerprint : MethodFingerprint(
         Opcode.CONST_4,
         Opcode.IGET_OBJECT,
         Opcode.INVOKE_STATIC,
-        Opcode.RETURN_OBJECT
+        Opcode.RETURN_VOID
     ),
-    customFingerprint = { methodDef, classDef ->
-        methodDef.name == "b" && classDef.methods.count() == 3
-    }
+    customFingerprint = { methodDef, classDef -> methodDef.name == "b" }
 )
