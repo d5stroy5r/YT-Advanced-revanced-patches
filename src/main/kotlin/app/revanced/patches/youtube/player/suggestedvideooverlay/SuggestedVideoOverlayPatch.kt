@@ -82,19 +82,19 @@ object SuggestedVideoOverlayPatch : BytecodePatch(
 
         TouchAreaOnClickListenerFingerprint.result?.let {
             it.mutableMethod.apply {
-                val targetIndex = it.scanResult.patternScanResult!!.startIndex + 1
-                val targetReference =
-                    getInstruction<ReferenceInstruction>(targetIndex).reference.toString()
+                val insertMethod = it.mutableClass.methods.find { method -> method.parameters.size == 1 }
                 
-                if (targetReference != "Landroid/view/View;->setOnClickListener(Landroid/view/View\$OnClickListener;)V")
-                    throw TouchAreaOnClickListenerFingerprint.exception
+                insertMethod?.apply {            
+                    val targetIndex = insertMethod.implementation!!.instructions
+                        .indexOfFirst { instruction -> instruction.opcode == Opcode.INVOKE_VIRTUAL }
+                    val targetRegister = getInstruction<OneRegisterInstruction>(targetIndex).registerA
 
-                val targetRegister = getInstruction<Instruction35c>(targetIndex).registerC
+                    addInstruction(
+                        targetIndex + 1,
+                        "invoke-static {v$targetRegister}, $PLAYER->hideSuggestedVideoOverlay(Landroid/view/View;)V"
+                    )
+                } ?: throw PatchException("Failed to find getView method")
 
-                addInstruction(
-                    targetIndex + 1,
-                    "invoke-static {v$targetRegister}, $PLAYER->hideSuggestedVideoOverlay(Landroid/view/View;)V"
-                )
             }
         } ?: throw TouchAreaOnClickListenerFingerprint.exception
 
